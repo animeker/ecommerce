@@ -1,0 +1,5 @@
+**/Debug
+*.suo
+*EcomApi.dll
+*EcomApi.pdb
+*applicationhost.config
