@@ -16,14 +16,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Admin Dashboard", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <!--https://localhost:44301/Home or https://localhost:44301-->
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Categories", "Index", "Api/values", new { area = "" }, null)</li>
                     <!--https://localhost:44301/Home/Products-->
-                    <li>@Html.ActionLink("Products", "Index", "Home/Products", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Products", "Index", "Api/Products", new { area = "" }, null)</li>
+                    <!--https://localhost:44301/Home/Customers-->
+                    <li>@Html.ActionLink("Customers", "Index", "Api/Customer", new { area = "" }, null)</li>
                 </ul>
             </div>
         </div>
