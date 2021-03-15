@@ -11,6 +11,7 @@ namespace EcomApi.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+        [Route("[Home/Test]")]
         public ActionResult Index()
         {
             ProductsController products = new ProductsController();
@@ -24,8 +25,16 @@ namespace EcomApi.Controllers
             return View();
         }
 
-        // GET: Home
+        // GET: Home/Test
         public ActionResult Test()
+        {
+            // View() returns the name of the action method which is the index, "ActionResult Index()"
+            return View();
+        }
+
+        // GET: Home/Test
+        [Route("[Product]")]
+        public ActionResult TestProduct()
         {
             // View() returns the name of the action method which is the index, "ActionResult Index()"
             return View();
