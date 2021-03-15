@@ -26,6 +26,7 @@
                     <li>@Html.ActionLink("Products", "Index", "Api/Products", new { area = "" }, null)</li>
                     <!--https://localhost:44301/Home/Customers-->
                     <li>@Html.ActionLink("Customers", "Index", "Api/Customer", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Login", "Index", "Home", new { area = ""}, )</li>
                 </ul>
             </div>
         </div>
@@ -34,7 +35,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - eCommerce Admin Dashboard</p>
         </footer>
     </div>
 
