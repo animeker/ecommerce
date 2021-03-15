@@ -24,6 +24,11 @@ namespace EcomApi.Controllers
             return View();
         }
 
-       
+        // GET: Home
+        public ActionResult Test()
+        {
+            // View() returns the name of the action method which is the index, "ActionResult Index()"
+            return View();
+        }
     }
 }
