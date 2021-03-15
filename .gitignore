@@ -1,6 +1,6 @@
+# https://stackoverflow.com/a/26137730
+*.suo
+*.dll
+*.pdb
+*.cache
 /Debug
-**/.suo
-*EcomApi.dll
-*EcomApi.pdb
-*applicationhost.config
-*EcomApi.csprojAssemblyReference.cache
