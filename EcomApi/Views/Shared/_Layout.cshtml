@@ -23,10 +23,11 @@
                     <!--https://localhost:44301/Home or https://localhost:44301-->
                     <li>@Html.ActionLink("Categories", "Index", "Api/values", new { area = "" }, null)</li>
                     <!--https://localhost:44301/Home/Products-->
-                    <li>@Html.ActionLink("Products", "Index", "Api/Products", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Products", "Index", "AllProducts", new { area = "" }, null)</li>
                     <!--https://localhost:44301/Home/Customers-->
                     <li>@Html.ActionLink("Customers", "Index", "Api/Customer", new { area = "" }, null)</li>
-                    <li>@Html.ActionLink("Login", "Index", "Home", new { area = ""}, )</li>
+
+                    <li>@Html.ActionLink("Login", "Index", "Home", new { area = ""}, null)</li>
                 </ul>
             </div>
         </div>

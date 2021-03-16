@@ -24,6 +24,12 @@ namespace EcomApi.Controllers
             return View();
         }
 
+        public ActionResult Products()
+        {
+
+            return View();
+        }
+
        
     }
 }
