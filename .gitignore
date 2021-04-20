@@ -1,6 +1,0 @@
-# https://stackoverflow.com/a/26137730
-*.suo
-*.dll
-*.pdb
-*.cache
-/Debug
