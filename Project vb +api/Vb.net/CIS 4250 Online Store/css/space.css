@@ -1,0 +1,10 @@
+/*!
+Test for adding button space
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
