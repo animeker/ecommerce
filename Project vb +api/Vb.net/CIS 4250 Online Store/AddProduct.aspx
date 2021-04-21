@@ -63,7 +63,7 @@
                     
                     <td><asp:Image  runat="server" ImageUrl=' <%#Eval("Productimg") %>' Height="100px" Width="100px"/> </td>
 
-                    <td><a href="AddProduct.aspx?ProductIdEdit=<%# Eval("ProductId")%>&ProductDescription=<%#Trim(Eval("ProductDescription")) %>&UnitPrice=<%#Trim(Eval("UnitPrice")) %>&MainCategoryID=<%#Trim(Eval("MainCategoryID")) %>&SubCategoryID=<%#Trim(Eval("SubCategoryID")) %>&ProductNO=<%#Trim(Eval("ProductNO")) %>&Productimg=<%#Trim(Eval("Productimg")) %>&ProductName=<%#Trim(Eval("ProductName")) %>" class="btn btn-warning">Edit</a>
+                    <td><a href="AddProduct.aspx?ProductIdEdit=<%# Eval("ProductId")%>&ProductDescription=<%#Trim(Eval("ProductDescription")) %>&UnitPrice=<%#Trim(Eval("UnitPrice")) %>&MainCategoryID=<%#Trim(Eval("MainCategoryID")) %>&SubCategoryID=<%#Trim(Eval("SubCategoryID")) %>&ProductNO=<%#Trim(Eval("ProductNO")) %>&Productimg=<%#Trim(Eval("Productimg")) %>&ProductName=<%#Trim(Eval("ProductName")) %>" class="btn btn-warning">Edit</a> </br>
                    <a href="AddProduct.aspx?ProductIdDelete=<%# Eval("ProductId")%>&ProductDescription=<%#Trim(Eval("ProductDescription")) %>&UnitPrice=<%#Trim(Eval("UnitPrice")) %>&MainCategoryID=<%#Trim(Eval("MainCategoryID")) %>&SubCategoryID=<%#Trim(Eval("SubCategoryID")) %>&ProductNO=<%#Trim(Eval("ProductNO")) %>&Productimg=<%#Trim(Eval("Productimg")) %>&ProductName=<%#Trim(Eval("ProductName")) %>" class="btn btn-danger">Delete</a></td>
 
 
